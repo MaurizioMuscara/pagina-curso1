@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+
+
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+header  {
+    background: url(../img/banner1.webp) no-repeat;
+    background-size:cover ;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo-pagina {
+    height: 300px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+nav ul li{
+
+    list-style: none;
+    float: left;
+    font: weight 500px;
+    padding-right: 40px;
+    font-size: 30px;
+
+}
+
+.container h3 {
+    font-size: 2rem;
+    position: absolute;
+    top: 80%;
+    padding-right: 30px;
+    margin: 0%;
+}
+.custom-section{
+    padding-top: 50px;
+} 
+
+.card-text {
+    font-family: "New Tegomin";
+  }
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .redes-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .redes-logo {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+  }
