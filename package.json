@@ -1,11 +1,18 @@
 {
   "name": "pagina-curso1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "schematics-scss-migrate": "^2.3.17"
+  },
+  "description": "",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
 }

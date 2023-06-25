@@ -1,79 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
-
-
 
 body {
-
-
-
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
-
-header  {
-    background: url(../img/banner1.webp) no-repeat;
-    background-size:cover ;
-    display: flex;
-justify-content: space-between;
-align-items: center;
+header {
+  background: url(../img/banner1.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-pagina {
-    height: 300px;
-    
+  height: 300px;
 }
 
-nav a{
-    text-decoration: none;
-    color: black;
-   
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
-nav ul li{
-
-    list-style: none;
-    float: left;
-    font: weight 500px;
-    padding-right: 40px;
-    font-size: 30px;
-
+nav ul li {
+  list-style: none;
+  float: left;
+  font: weight 500px;
+  padding-right: 40px;
+  font-size: 30px;
 }
 
 .container h3 {
-    font-size: 2rem;
-    position: absolute;
-    top: 80%;
-    padding-right: 30px;
-    margin: 0%;
+  font-size: 2rem;
+  position: absolute;
+  top: 80%;
+  padding-right: 30px;
+  margin: 0%;
 }
-.custom-section{
-    padding-top: 50px;
-} 
+
+.custom-section {
+  padding-top: 50px;
+}
 
 .card-text {
-    font-family: "New Tegomin";
-  }
+  font-family: "New Tegomin";
+  background-color: #fcd2d2;
+  font-size: 1.3rem;
+  width: 600px;
+}
 
+.quiensoy {
+  background-color: #fcd2d2;
+  font-size: 1.3rem;
+  width: 300px;
+}
 
 footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .redes-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .redes-logo {
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-  }
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.redes-logo {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+}
 
 /*# sourceMappingURL=styles.css.map */
